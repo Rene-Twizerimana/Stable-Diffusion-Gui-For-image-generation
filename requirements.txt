@@ -1,0 +1,15 @@
+# Streamlit for the GUI
+streamlit==1.30.0
+
+# PyTorch CPU-only version (compatible with Streamlit Cloud)
+torch==2.2.0+cpu
+torchvision==0.17.1+cpu
+torchaudio==2.2.0+cpu
+-f https://download.pytorch.org/whl/torch_stable.html
+
+# Hugging Face libraries
+diffusers==0.21.2
+transformers==4.42.2
+
+# Image processing
+Pillow==10.0.0
